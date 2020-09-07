@@ -1,0 +1,15 @@
+{
+  "name": "miedit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "package": "electron-packager ./ MiEdit --all --out ./OutApp --electron-version 2.0.8 --app-version 1.3.0 --overwrite"
+  },
+  "author": "MikeC",
+  "license": "MIT",
+  "dependencies": {
+    "electron-packager": "^14.2.1",
+    "electron-store": "^5.1.1",
+  }
+}
